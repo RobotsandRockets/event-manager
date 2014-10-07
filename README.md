@@ -42,7 +42,7 @@ This page should show all events in the system *except cancelled events* and sho
 
 The list should be **paginated** and allow the user to click into the _event detail page_.
 
-### Event Detail Page (Create New & Edit Existing Event)
+### Event Detail Page
 
 This page should allow the user to create a new event or edit an existing one and is divided into three tabs: **event details**, **photos**, and **attendees**.
 
