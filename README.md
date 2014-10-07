@@ -4,11 +4,15 @@ If this project takes longer than 8 hours, please submit as much as you were abl
 
 ## Requirements
 
-You are reponsibile for building the back-end only.
+You are responsible for building the back-end only and do not need to implement any `show` actions for the models.
 
 * The application must be built with **Ruby on Rails**.
 * You may use **Twitter Bootstrap** or **Zurb Foundation** (Bootstrap 3 is included by default in this project).
 * User authentication is not required for this application.
+
+## API Endpoint
+
+You *must build an API endpoint* for allowing a visitor to RSVP for an event. This endpoint should take the **name** of the attendee and an optional **number of guests**.
 
 ## What we're looking for...
 
@@ -19,3 +23,44 @@ You are reponsibile for building the back-end only.
 ## Data Models
 
 ![Entity Relationship Diagram](https://raw.githubusercontent.com/RobotsandRockets/event-manager/master/doc/erd.png)
+
+## Image Uploads
+
+For this project, the user should be able to upload images. You may want to look into [CarrierWave](https://github.com/carrierwaveuploader/carrierwave) or [Paperclip](https://github.com/thoughtbot/paperclip) to accomplish this.
+
+It is sufficient to upload files directly to the filesystem for storage (instead of a CDN). Thumbnail generation is optional, but appreciated.
+
+## Pages
+
+### Events Index/Listing Page
+
+This page should show all events in the system *except cancelled events* and should be divided into two tabs: **upcoming** events and **past** events.
+
+The list should be **paginated** and allow the user to click into the _event detail page_.
+
+### Event Detail Page (New & Edit)
+
+This page should allow the user to create a new event or edit an existing one and is divided into three tabs: **event details**, **photos**, and **attendees**.
+
+#### Event Details Tab
+
+This should allow the user to add the following data about an event:
+
+* Event Title
+* Image
+* Speaker
+* Description
+* Location (street 1, street 2, city, state, zip)
+* Start date & time
+
+If the event has already been created, the user should have the ability to **cancel** the event, which flags it as cancelled and hides it from the _list view_.
+
+#### Event Photos
+
+This screen should allow the user to upload any number of photos and **optionally add a caption** to them. The user can also delete the photos.
+
+See the section on [image](#image-uploads) for specifications.
+
+#### Event Attendees
+
+This screen should list event attendees that have been submitted via the [API endpoint](#api-endpoint) described above. It should also allow the user to **remove attendees**.
