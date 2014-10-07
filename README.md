@@ -10,19 +10,23 @@ You are responsible for building the back-end only and do not need to implement 
 * You may use **Twitter Bootstrap** or **Zurb Foundation** (Bootstrap 3 is included by default in this project).
 * User authentication is not required for this application.
 
-## API Endpoint
-
-You *must build an API endpoint* for allowing a visitor to RSVP for an event. This endpoint should take the **name** of the attendee and an optional **number of guests**.
-
 ## What we're looking for...
 
 * Understanding of basic user flows and application design (MVC)
 * Knowledge of the Ruby programming language, data modelling techniques, and the Rails framework
 * Sense of web development best practices
 
+## Mockups
+
+There are a set of [basic mockups](https://github.com/RobotsandRockets/event-manager/raw/master/doc/mockups.pdf) available which should serve as a visual guideline for what you're building.
+
 ## Data Models
 
 ![Entity Relationship Diagram](https://raw.githubusercontent.com/RobotsandRockets/event-manager/master/doc/erd.png)
+
+## API Endpoint
+
+You *must build an API endpoint* for allowing a visitor to RSVP for an event. This endpoint should take the **name** of the attendee and an optional **number of guests**.
 
 ## Image Uploads
 
