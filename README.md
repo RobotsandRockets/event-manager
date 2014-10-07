@@ -42,7 +42,7 @@ This page should show all events in the system *except cancelled events* and sho
 
 The list should be **paginated** and allow the user to click into the _event detail page_.
 
-### Event Detail Page (New & Edit)
+### Event Detail Page (Create New & Edit Existing Event)
 
 This page should allow the user to create a new event or edit an existing one and is divided into three tabs: **event details**, **photos**, and **attendees**.
 
@@ -59,12 +59,14 @@ This should allow the user to add the following data about an event:
 
 If the event has already been created, the user should have the ability to **cancel** the event, which flags it as cancelled and hides it from the _list view_.
 
-#### Event Photos
+If the event is new, the app should validate the presence of the event's title, description, location, and start date/time (must be in the future).
 
-This screen should allow the user to upload any number of photos and **optionally add a caption** to them. The user can also delete the photos.
+#### Event Photos Tab
+
+This tab is unavailable until the event has been created. This screen should allow the user to upload any number of photos and **optionally add a caption** to them. The user can also delete the photos.
 
 See the section on [image](#image-uploads) for specifications.
 
-#### Event Attendees
+#### Event Attendees Tab
 
-This screen should list event attendees that have been submitted via the [API endpoint](#api-endpoint) described above. It should also allow the user to **remove attendees**.
+This tab is unavailable until the event has been created. This screen should list event attendees that have been submitted via the [API endpoint](#api-endpoint) described above. It should also allow the user to **remove attendees**.
