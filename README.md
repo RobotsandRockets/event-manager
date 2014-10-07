@@ -1,28 +1,21 @@
-== README
+# Event Management Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+If this project takes longer than 8 hours, please submit as much as you were able to complete given the time constraint. This project will be used to judge code quality and could lead to additional work for completion of the actual application.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+You are reponsibile for building the back-end only.
 
-* System dependencies
+* The application must be built with **Ruby on Rails**.
+* You may use **Twitter Bootstrap** or **Zurb Foundation** (Bootstrap 3 is included by default in this project).
+* User authentication is not required for this application.
 
-* Configuration
+## What we're looking for...
 
-* Database creation
+* Understanding of basic user flows and application design (MVC)
+* Knowledge of the Ruby programming language, data modelling techniques, and the Rails framework
+* Sense of web development best practices
 
-* Database initialization
+## Data Models
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![Entity Relationship Diagram](https://raw.githubusercontent.com/RobotsandRockets/event-manager/master/doc/erd.png)
