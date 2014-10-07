@@ -1,6 +1,6 @@
 # Event Management Application
 
-If this project takes longer than 8 hours, please submit as much as you were able to complete given the time constraint. This project will be used to judge code quality and could lead to additional work for completion of the actual application.
+This project will be used to judge code quality and could lead to additional work for completion of the actual application.
 
 ## Requirements
 
