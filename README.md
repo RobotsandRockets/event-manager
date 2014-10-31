@@ -1,6 +1,6 @@
 # Event Management Application
 
-This project has been designed to take roughly 8 hours. Feel free to take more time if you need it. Please **DO NOT** fork this project, instead clone a fresh copy and submit a zip file with your work.
+This project has been designed to take 8 hours or less. Though, feel free to take more time if you need it. Please **DO NOT** fork this project, instead clone a fresh copy and submit a zip file with your work.
 
 ## Requirements
 
