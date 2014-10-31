@@ -4,7 +4,7 @@ This project has been designed to take roughly 8 hours. Feel free to take more t
 
 ## Requirements
 
-You are responsible for building the back-end only and do not need to implement any `show` actions for the models.
+You are responsible for building the back-end CRUD interace only; thus you do not need to implement any `show` actions.
 
 * The application must be built with **Ruby on Rails**.
 * You may use **Twitter Bootstrap** or **Zurb Foundation** (Bootstrap 3 is included by default in this project).
