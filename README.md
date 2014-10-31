@@ -1,7 +1,5 @@
 # Event Management Application
 
-This project will be used to judge code quality and could lead to additional work for completion of the actual application.
-
 This project has been designed to take roughly 8 hours. Feel free to take more time if you need it. Please **DO NOT** fork this project, instead clone a fresh copy and submit a zip file with your work.
 
 ## Requirements
