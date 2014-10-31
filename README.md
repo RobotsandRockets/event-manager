@@ -6,7 +6,7 @@ This project has been designed to take roughly 8 hours. Feel free to take more t
 
 You are responsible for building the back-end CRUD interace only; thus you do not need to implement any `show` actions.
 
-* The application must be built with **Ruby on Rails**.
+* The application _must_ be built with **Ruby on Rails**.
 * You may use **Twitter Bootstrap** or **Zurb Foundation** (Bootstrap 3 is included by default in this project).
 * User authentication is not required for this application.
 
