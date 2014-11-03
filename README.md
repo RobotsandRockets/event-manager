@@ -28,6 +28,18 @@ There are a set of [basic mockups](https://github.com/RobotsandRockets/event-man
 
 You *must build an API endpoint* for allowing a visitor to RSVP for an event. This endpoint should take the **name** of the attendee and an optional **number of guests**.
 
+Your RSVP controller should accept a JSON endpoint that takes a payload such as:
+
+`POST /v1/events/123/rsvp`
+```json
+{  
+   "name":"Bob Smith",
+   "guests":2
+}
+```
+
+And creates the appropriate RSVP record.
+
 ## Image Uploads
 
 For this project, the user should be able to upload images. You may want to look into [CarrierWave](https://github.com/carrierwaveuploader/carrierwave) or [Paperclip](https://github.com/thoughtbot/paperclip) to accomplish this.
